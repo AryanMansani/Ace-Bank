@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emi.loanfxmlController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="760.0">
+         <children>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="515.0" prefWidth="768.0">
+               <children>
+                  <ImageView fitHeight="529.0" fitWidth="762.0" layoutX="-13.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/back1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="265.0" layoutY="35.0" text="EMI Calculator">
+                     <font>
+                        <Font name="Impact" size="36.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="294.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#getEmi" prefHeight="33.0" prefWidth="170.0" styleClass="login-button" stylesheets="@../design/design.css" text="Calculate" />
+                  <Label layoutX="40.0" layoutY="156.0" text="Loan Amount">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="213.0" text="Rate of Interest">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="43.0" layoutY="269.0" prefHeight="27.0" prefWidth="132.0" text="Tenure">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="50.0" layoutY="348.0" text="EMI">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="amtTF" layoutX="206.0" layoutY="154.0" promptText="Amount in ₹" />
+                  <TextField fx:id="tenureTF" layoutX="206.0" layoutY="267.0" promptText="in Months" />
+                  <TextField fx:id="rateTF" layoutX="206.0" layoutY="211.0" promptText="\% per Annum" />
+                  <JFXTextField fx:id="emi" layoutX="204.0" layoutY="343.0" maxWidth="195.0" minWidth="152.0" prefHeight="37.0" prefWidth="186.0" text="000000" />
+                  <FontAwesomeIconView glyphName="MONEY" layoutX="315.0" layoutY="465.0" />
+                  <Slider fx:id="loanAmtSli" layoutX="401.0" layoutY="161.0" max="1.0E7" min="5000.0" prefHeight="17.0" prefWidth="323.0" stylesheets="@../design/design.css" />
+                  <Slider fx:id="roiSli" layoutX="401.0" layoutY="218.0" max="12.0" min="1.0" prefHeight="17.0" prefWidth="325.0" />
+                  <Slider fx:id="tenureSli" layoutX="401.0" layoutY="274.0" max="480.0" min="1.0" prefHeight="17.0" prefWidth="322.0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

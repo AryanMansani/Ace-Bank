@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="account_information" prefHeight="506.0" prefWidth="760.0" style="-fx-background-color: #A9A9A9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountinfo.AccountInformationController">
+   <children>
+      <Label prefHeight="45.0" prefWidth="763.0" style="-fx-background-color: #9a2828;" text="Account Information" textAlignment="CENTER" textFill="#fcf1f1">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="22.0" />
+         </padding>
+      </Label>
+      <ImageView fitHeight="461.0" fitWidth="763.0" layoutY="45.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/back1.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="1.0" layoutY="196.0" prefHeight="37.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="76.0" prefWidth="300.0" text="       Account No">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="account_no" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="34.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="324.0" prefHeight="37.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="76.0" prefWidth="300.0" text="       Account Type">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="account_type" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="34.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="385.0" prefHeight="37.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="76.0" prefWidth="300.0" text="       Gender">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="gender" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="34.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="259.0" prefHeight="37.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="76.0" prefWidth="300.0" text="       Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="name" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="34.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="448.0" prefHeight="37.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="76.0" prefWidth="300.0" text="       Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="email" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="34.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox layoutX="2.0" layoutY="97.0" prefHeight="75.0" prefWidth="760.0" style="-fx-background-color: white;" styleClass="account-info" stylesheets="@../design/design.css">
+         <children>
+            <Label prefHeight="71.0" prefWidth="304.0" text="     BALANCE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Text fx:id="balance" strokeType="OUTSIDE" strokeWidth="0.0" text="0000" textAlignment="CENTER" wrappingWidth="106.55271649360657">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

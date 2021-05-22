@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="withdraw.WithdrawAmtController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="760.0">
+         <children>
+            <Pane layoutX="-2.0" prefHeight="506.0" prefWidth="762.0">
+               <children>
+                  <ImageView fitHeight="508.0" fitWidth="762.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/back1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="241.0" layoutY="32.0" text="Withdraw Amount">
+                     <font>
+                        <Font name="Impact" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="241.0" layoutY="136.0" text="Your Account No :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="247.0" layoutY="206.0" text="Current Balance :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="accountno" layoutX="416.0" layoutY="136.0" prefHeight="21.0" prefWidth="100.0" text="00000000">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="balance" layoutX="426.0" layoutY="206.0" prefHeight="21.0" prefWidth="80.0" text="000000">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="403.0" layoutY="206.0" prefHeight="27.0" prefWidth="19.0" text="₹">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="amt_field" layoutX="253.0" layoutY="277.0" maxWidth="262.0" minWidth="254.0" prefHeight="37.0" prefWidth="262.0" promptText="Amount" />
+                  <JFXPasswordField fx:id="pin_field" layoutX="253.0" layoutY="328.0" maxWidth="262.0" minWidth="247.0" prefHeight="37.0" prefWidth="270.0" promptText="PIN" />
+                  <Button layoutX="315.0" layoutY="428.0" mnemonicParsing="false" onMouseClicked="#withdrawButton" prefHeight="31.0" prefWidth="120.0" styleClass="login-button" stylesheets="@../design/design.css" text="WithDraw" />
+                  <FontAwesomeIconView glyphName="ARROW_DOWN" layoutX="324.0" layoutY="448.0" />
+                  <HBox layoutX="217.0" layoutY="127.0" prefHeight="48.0" prefWidth="320.0" styleClass="account-info" stylesheets="@../design/design.css" />
+                  <HBox layoutX="218.0" layoutY="196.0" prefHeight="48.0" prefWidth="320.0" styleClass="account-info" stylesheets="@../design/design.css" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
