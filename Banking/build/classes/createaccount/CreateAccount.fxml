@@ -32,9 +32,9 @@
             <TextField fx:id="name" layoutX="55.0" layoutY="254.0" prefHeight="38.0" prefWidth="340.0" promptText="Full Name" styleClass="field-decoration" stylesheets="@../design/design.css" />
             <TextField fx:id="idcardno" layoutX="55.0" layoutY="313.0" prefHeight="38.0" prefWidth="340.0" promptText="ID CARD NO" styleClass="field-decoration" stylesheets="@../design/design.css" />
             <TextField fx:id="mobileno" layoutX="55.0" layoutY="378.0" prefHeight="38.0" prefWidth="340.0" promptText="Mobile No" styleClass="field-decoration" stylesheets="@../design/design.css" />
-            <ComboBox fx:id="gender" layoutX="54.0" layoutY="491.0" prefHeight="31.0" prefWidth="340.0" promptText="Gender" />
-            <ComboBox fx:id="maritialstatus" layoutX="54.0" layoutY="546.0" prefHeight="31.0" prefWidth="340.0" promptText="Maritial Status" />
-            <ComboBox fx:id="religion" layoutX="54.0" layoutY="597.0" prefHeight="31.0" prefWidth="340.0" promptText="Religion" />
+            <ComboBox fx:id="gender" layoutX="54.0" layoutY="491.0" prefHeight="35.0" prefWidth="340.0" promptText="Gender" />
+            <ComboBox fx:id="maritialstatus" layoutX="54.0" layoutY="541.0" prefHeight="36.0" prefWidth="340.0" promptText="Maritial Status" />
+            <ComboBox fx:id="religion" layoutX="54.0" layoutY="590.0" prefHeight="38.0" prefWidth="340.0" promptText="Religion" />
             <DatePicker fx:id="dob" layoutX="54.0" layoutY="652.0" prefHeight="38.0" prefWidth="340.0" promptText="Date of Birth" stylesheets="@../design/design.css" />
             <TextField fx:id="city" layoutX="54.0" layoutY="713.0" prefHeight="38.0" prefWidth="340.0" promptText="City" styleClass="field-decoration" stylesheets="@../design/design.css" />
             <TextField fx:id="address" layoutX="54.0" layoutY="776.0" prefHeight="38.0" prefWidth="340.0" promptText="Address" styleClass="field-decoration" stylesheets="@../design/design.css" />
@@ -61,7 +61,7 @@
             </Label>
             <Button fx:id="browse_pic" layoutX="244.0" layoutY="1349.0" mnemonicParsing="false" onMouseClicked="#setUpPic" prefHeight="33.0" prefWidth="123.0" styleClass="login-button" stylesheets="@../design/design.css" text="Browse" />
             <Button layoutX="58.0" layoutY="1518.0" mnemonicParsing="false" onMouseClicked="#newAccount" prefHeight="33.0" prefWidth="304.0" styleClass="login-button" stylesheets="@../design/design.css" text="Create Account" />
-            <FontAwesomeIconView glyphName="UPLOAD" layoutX="262.0" layoutY="1365.0" styleClass="login-icon" />
+            <FontAwesomeIconView glyphName="UPLOAD" layoutX="262.0" layoutY="1369.0" styleClass="login-icon" />
             <TextField fx:id="email" layoutX="55.0" layoutY="433.0" prefHeight="38.0" prefWidth="340.0" promptText="Email" styleClass="field-decoration" stylesheets="@../design/design.css" />
             <TextField fx:id="otpfield" layoutX="54.0" layoutY="1447.0" prefHeight="38.0" prefWidth="159.0" promptText="OTP" styleClass="field-decoration" stylesheets="@../design/design.css" />
             <Button fx:id="browse_pic1" layoutX="245.0" layoutY="1450.0" mnemonicParsing="false" onMouseClicked="#generateOtp" prefHeight="33.0" prefWidth="125.0" styleClass="login-button" stylesheets="@../design/design.css" text="Generate" />
