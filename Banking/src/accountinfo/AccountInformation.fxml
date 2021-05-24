@@ -74,7 +74,7 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Text fx:id="gender" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+            <Text fx:id="gender" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="411.6708984375">
                <font>
                   <Font size="18.0" />
                </font>
@@ -114,7 +114,7 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Text fx:id="email" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="267.6708984375">
+            <Text fx:id="email" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="417.6708984375">
                <font>
                   <Font size="18.0" />
                </font>
@@ -137,7 +137,7 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Text fx:id="balance" strokeType="OUTSIDE" strokeWidth="0.0" text="0000" textAlignment="CENTER" wrappingWidth="106.55271649360657">
+            <Text fx:id="balance" strokeType="OUTSIDE" strokeWidth="0.0" text="   0000" wrappingWidth="398.55271649360657">
                <font>
                   <Font size="24.0" />
                </font>

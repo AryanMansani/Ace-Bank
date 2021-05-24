@@ -1,4 +1,3 @@
-
 package Login;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
@@ -26,12 +25,9 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javax.swing.JOptionPane;
-
 /*
 @author ARYAN
 */
-
-
 public class LoginScreenController implements Initializable {
     
      private double xOffset = 0;
@@ -46,9 +42,7 @@ public class LoginScreenController implements Initializable {
     @FXML
     private PasswordField pin;
     @FXML
-    private FontAwesomeIconView ico;
-    
-    
+    private FontAwesomeIconView ico;   
      @FXML
     public void click(MouseEvent event)
     {
@@ -101,8 +95,7 @@ public class LoginScreenController implements Initializable {
         main_area.getChildren().removeAll();
         
         Parent fxml = FXMLLoader.load(getClass().getResource("/forgotpass/ForgotPass.fxml"));
-        main_area.getChildren().addAll(fxml);
-        
+        main_area.getChildren().addAll(fxml);       
     }
      
      /**
@@ -173,11 +166,6 @@ public class LoginScreenController implements Initializable {
                 
             
         }
-            
-            
-            
-            
-        
     }
     
     

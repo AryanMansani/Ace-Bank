@@ -15,7 +15,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="627.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginScreenController">
    <children>
-      <Pane layoutY="27.0" prefHeight="600.0" prefWidth="317.0" styleClass="login_sidebar" stylesheets="@../design/design.css">
+      <Pane layoutX="-1.0" layoutY="27.0" prefHeight="600.0" prefWidth="317.0" styleClass="login_sidebar" stylesheets="@../design/design.css">
          <children>
             <ImageView fitHeight="184.0" fitWidth="227.0" layoutX="51.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -27,12 +27,12 @@
                   <Font name="Impact" size="53.0" />
                </font>
             </Label>
-            <Label layoutX="151.0" layoutY="403.0" text="Client Software">
+            <Label layoutX="150.0" layoutY="385.0" text="Client Software" textFill="#fcf3f3">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="148.0" layoutY="560.0" text="All Rights Reserved" />
+            <Label layoutX="91.0" layoutY="560.0" text="All Rights Reserved" textFill="#f5ecec" />
          </children>
       </Pane>
       <Pane fx:id="main_area" layoutX="317.0" layoutY="27.0" prefHeight="600.0" prefWidth="482.0" styleClass="login-main" stylesheets="@../design/design.css">
@@ -63,14 +63,17 @@
                </font>
             </Button>
             <Button layoutX="63.0" layoutY="406.0" mnemonicParsing="false" onMouseClicked="#LoginAccount" prefHeight="31.0" prefWidth="96.0" styleClass="login-button" stylesheets="@../design/design.css" text="Login" />
-            <Label layoutX="63.0" layoutY="476.0" text="OR" textFill="#e13b3b" />
-            <Button layoutX="63.0" layoutY="529.0" mnemonicParsing="false" onMouseClicked="#createAccount" styleClass="login-button" stylesheets="@../design/design.css" text="Create New Account">
+            <Label layoutX="92.0" layoutY="476.0" text="OR" textFill="#e13b3b">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Button layoutX="63.0" layoutY="529.0" mnemonicParsing="false" onMouseClicked="#createAccount" prefHeight="33.0" prefWidth="185.0" styleClass="login-button" stylesheets="@../design/design.css" text="Create New Account">
                <graphic>
                   <FontAwesomeIconView glyphName="PENCIL" styleClass="login-icon" />
                </graphic>
             </Button>
-            <FontAwesomeIconView glyphName="USER" layoutX="26.0" layoutY="281.0" size="18" />
-            <FontAwesomeIconView glyphName="EYE" layoutX="27.0" layoutY="358.0" size="15" />
+            <FontAwesomeIconView glyphName="USER" layoutX="26.0" layoutY="281.0" size="20" />
+            <FontAwesomeIconView glyphName="EYE" layoutX="27.0" layoutY="358.0" size="20" />
             <FontAwesomeIconView glyphName="USER" layoutX="76.0" layoutY="427.0" styleClass="login-icon" text="" wrappingWidth="14.428571701049805" />
          </children>
       </Pane>

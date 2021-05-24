@@ -1,4 +1,3 @@
-
 package createaccount;
 
 import java.net.URL;
@@ -40,7 +39,6 @@ import javax.mail.MessagingException;
 /*
 @author ARYAN
 */
-
 
 public class CreateAccountController implements Initializable {
  
@@ -174,9 +172,7 @@ public class CreateAccountController implements Initializable {
             a.setContentText("OTP is sent on the email address  " + email.getText());
             a.showAndWait();
             flag = true;
-            otpfield.setEditable(true);
-       
-        
+            otpfield.setEditable(true);       
     }
     /**
      * Validates user OTP input

@@ -21,7 +21,7 @@
                   <Insets left="8.0" top="8.0" />
                </HBox.margin>
             </FontAwesomeIconView>
-            <Label text="Janta Bank Limited - Client Software" textFill="WHITE">
+            <Label text="ACE BANK - Client Software" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
